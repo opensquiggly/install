@@ -1,7 +1,7 @@
-apt update
-apt install unzip
+sudo apt update
+sudo apt install unzip
 cd /opt
-wget http://files.opensquiggly.com/opensquiggly.latest.zip
-unzip opensquiggly.latest.zip -d OpenSquiggly
+sudo wget http://files.opensquiggly.com/opensquiggly.latest.zip
+sudo unzip opensquiggly.latest.zip -d OpenSquiggly
 cd /opt/OpenSquiggly/setup
-bash linode-setup.sh
+sudo bash linode-setup.sh

@@ -4,7 +4,7 @@ Scripts for installing OpenSquiggly
 To install OpenSquiggly on a physical server or Debian-base (e.g. Ubuntu) virtual machine, do:
 
 ```bash
-curl -sfL https://raw.githubusercontent.com/opensquiggly/install/main/scripts/install.sh | sudo bash
+bash <(curl -sfL https://raw.githubusercontent.com/opensquiggly/install/main/scripts/install.sh)
 ```
 
 This script will:
